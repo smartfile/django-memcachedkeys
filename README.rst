@@ -24,3 +24,7 @@ Then use it in your settings file::
             'KEY_FUNCTION': 'memcachedkeys.make_key',
         }
     }
+    
+By default, pyhashxx is used to sanitize keys. To use a different backend::
+
+    'KEY_FUNCTION': 'memcachedkeys.make_key_md5',
