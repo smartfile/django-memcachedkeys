@@ -42,8 +42,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'django-memcachedkeys'
-copyright = u'2013, Matthew Dapena-Tretter'
+project = 'django-memcachedkeys'
+copyright = '2013, Matthew Dapena-Tretter'
 
 pkgmeta = {}
 pkgmeta_file = os.path.join(os.path.dirname(__file__), '..', 'memcachedkeys', 'pkgmeta.py')
@@ -197,8 +197,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'django-memcachedkeys.tex', u'django-memcachedkeys Documentation',
-   u'Matthew Dapena-Tretter', 'manual'),
+  ('index', 'django-memcachedkeys.tex', 'django-memcachedkeys Documentation',
+   'Matthew Dapena-Tretter', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -227,8 +227,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-memcachedkeys', u'django-memcachedkeys Documentation',
-     [u'Matthew Dapena-Tretter'], 1)
+    ('index', 'django-memcachedkeys', 'django-memcachedkeys Documentation',
+     ['Matthew Dapena-Tretter'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -241,8 +241,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'django-memcachedkeys', u'django-memcachedkeys Documentation',
-   u'Matthew Dapena-Tretter', 'django-memcachedkeys', 'One line description of project.',
+  ('index', 'django-memcachedkeys', 'django-memcachedkeys Documentation',
+   'Matthew Dapena-Tretter', 'django-memcachedkeys', 'One line description of project.',
    'Miscellaneous'),
 ]
 

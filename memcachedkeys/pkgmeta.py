@@ -5,4 +5,4 @@ pkgmeta = dict(
 )
 
 globals().update(pkgmeta)
-__all__ = pkgmeta.keys()
+__all__ = list(pkgmeta.keys())

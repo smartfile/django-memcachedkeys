@@ -8,8 +8,9 @@ import sys
 
 
 pkgmeta = {}
-execfile(os.path.join(os.path.dirname(__file__),
-         'memcachedkeys', 'pkgmeta.py'), pkgmeta)
+exec(compile(open(os.path.join(os.path.dirname(__file__),
+         'memcachedkeys', 'pkgmeta.py'), "rb").read(), os.path.join(os.path.dirname(__file__),
+         'memcachedkeys', 'pkgmeta.py'), 'exec'), pkgmeta)
 
 
 class PyTest(TestCommand):

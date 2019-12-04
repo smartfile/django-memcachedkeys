@@ -6,7 +6,7 @@ from pyhashxx import hashxx
 from memcachedkeys.pkgmeta import *
 
 
-bad_key_chars = re.compile(ur'[\u0000-\u001f\s]+')
+bad_key_chars = re.compile(r'[\u0000-\u001f\s]+')
 MAX_LENGTH = 250
 
 
