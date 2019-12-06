@@ -37,7 +37,7 @@ def make_key(key, key_prefix, version):
     full_key = '%s:%s:%s' % (key_prefix, version, clean_key)
 
     if clean_key != key or len(full_key) > MAX_LENGTH:
-        hashed_key = str(hashxx(key))
+        hashed_key = str(hashxx(key.encode('utf-8')))
         abbrev_keylen = MAX_LENGTH - len(hashed_key) - 4 - len(key_prefix) - len(str(version))
         new_key = '%s[%s]' % (clean_key[:abbrev_keylen], hashed_key)
         full_key = '%s:%s:%s' % (key_prefix, version, new_key)
